@@ -6,6 +6,8 @@ import { createBrowserRouter } from 'react-router'
 import RootLayout from './Layout/RootLayout'
 import Timeline from './Pages/Timeline/Timeline'
 import Stats from './Pages/Stats/Stats'
+import NotFound from './Pages/NotFound/NotFound'
+import Homepage from './Pages/Homepage/Homepage'
 
 const router = createBrowserRouter([
   {
@@ -14,7 +16,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <h2>Home</h2>,
+        element: <Homepage></Homepage>,
       },
       {
         path:"/Timeline",
@@ -26,7 +28,7 @@ const router = createBrowserRouter([
       }
       
     ],
-    errorElement: <h2>This page is Not Found</h2>
+    errorElement: <NotFound></NotFound>
   },
 ]);
 
