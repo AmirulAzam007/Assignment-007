@@ -14,7 +14,20 @@ const Footer = () => {
                     <div className='bg-white p-2 rounded-full'><FaFacebook /></div>
                     <div className='bg-white p-2 rounded-full'><FaSquareXTwitter /></div>
                 </div>
+
+                <div className="divider w-[80%] mx-auto"></div>
+                
             </div>
+
+            <div className='flex justify-between mx-auto w-[80%]'>
+                    <p className='text-white'>© 2026 KeenKeeper. All rights reserved.</p>
+                    <div className='flex gap-3'>
+                        <p className='text-white'>Privacy Policy</p>
+                        <p className='text-white'>Terms of Service</p>
+                        <p className='text-white'>Cookies</p>
+                    </div>
+                </div>
+            
         </div>
     );
 };
