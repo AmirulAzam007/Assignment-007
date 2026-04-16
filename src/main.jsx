@@ -8,6 +8,7 @@ import Timeline from './Pages/Timeline/Timeline'
 import Stats from './Pages/Stats/Stats'
 import NotFound from './Pages/NotFound/NotFound'
 import Homepage from './Pages/Homepage/Homepage'
+import FriendDetails from './Pages/friendDetails/FriendDetails'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path:"/Stats",
         element: <Stats></Stats>
+      },
+      {
+        path:"/Friends/:id",
+        element: <FriendDetails></FriendDetails>
       }
       
     ],

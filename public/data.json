@@ -7,7 +7,7 @@
     "days_since_contact": 18,
     "status": "overdue",
     "tags": "school",
-    "bio": "We studied together in high school and still talk about football matches.",
+    "bio": "We studied together in high school",
     "goal": 14,
     "next_due_date": "2026-04-10"
   },
@@ -19,7 +19,7 @@
     "days_since_contact": 10,
     "status": "almost due",
     "tags": "close friend",
-    "bio": "Met during university group projects. We often share career advice.",
+    "bio": "Met during university group projects.",
     "goal": 14,
     "next_due_date": "2026-04-20"
   },
@@ -31,7 +31,7 @@
     "days_since_contact": 5,
     "status": "on-track",
     "tags": "office",
-    "bio": "Senior colleague who guides me in professional growth and decision-making.",
+    "bio": "Senior colleague who guides me in professional growth.",
     "goal": 14,
     "next_due_date": "2026-04-30"
   },
@@ -43,7 +43,7 @@
     "days_since_contact": 22,
     "status": "overdue",
     "tags": "gym",
-    "bio": "Workout partner who keeps me motivated to stay consistent at the gym.",
+    "bio": "Workout partner who keeps me motivated",
     "goal": 14,
     "next_due_date": "2026-04-08"
   },
@@ -55,7 +55,7 @@
     "days_since_contact": 13,
     "status": "almost due",
     "tags":  "family friend",
-    "bio": "Grew up in the same neighbourhood, our families are closely connected.",
+    "bio": "Grew up in the same neighbourhood.",
     "goal": 14,
     "next_due_date": "2026-04-19"
   },
@@ -67,7 +67,7 @@
     "days_since_contact": 7,
     "status": "on-track",
     "tags": "business",
-    "bio": "Co-founder of a small startup idea we are trying to build together.",
+    "bio": "Co-founder of a small startup idea.",
     "goal": 14,
     "next_due_date": "2026-04-27"
   },
@@ -79,7 +79,7 @@
     "days_since_contact": 16,
     "status": "overdue",
     "tags":  "debate club",
-    "bio": "We were in the same debate team and still enjoy discussing social topics.",
+    "bio": "We were in the same debate team.",
     "goal": 14,
     "next_due_date": "2026-04-12"
   },
@@ -91,7 +91,7 @@
     "days_since_contact": 11,
     "status": "almost due",
     "tags": "travel",
-    "bio": "Travel companion who loves capturing landscapes and street photography.",
+    "bio": "Travel companion who loves capturing landscapes.",
     "goal": 14,
     "next_due_date": "2026-04-21"
   },
@@ -103,7 +103,7 @@
     "days_since_contact": 3,
     "status": "on-track",
     "tags": "friend",
-    "bio": "We exchange books and discuss novels every month over coffee.",
+    "bio": "We exchange books and discuss novels.",
     "goal": 14,
     "next_due_date": "2026-05-01"
   },
@@ -115,7 +115,7 @@
     "days_since_contact": 20,
     "status": "overdue",
     "tags":  "cousin",
-    "bio": "My cousin who lives in another city; we usually catch up during holidays.",
+    "bio": "My cousin who lives in another city.",
     "goal": 14,
     "next_due_date": "2026-04-09"
   }
