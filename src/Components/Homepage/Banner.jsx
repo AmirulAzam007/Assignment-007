@@ -15,22 +15,22 @@ const Banner = () => {
 
    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-15 justify-center items-center mx-auto mt-10'>
 
-       <div className='bg-white space-y-5 w-full min-h-[20vh] flex flex-col justify-center items-center'>
+       <div className='bg-white space-y-5 w-full min-h-[20vh] flex flex-col justify-center items-center rounded-xl'>
         <h1 className='text-4xl font-bold'>10</h1>
         <p className='text-gray-500'>Total Friends</p>
        </div>
 
-       <div className='bg-white space-y-5  w-full min-h-[20vh] flex flex-col justify-center items-center'>
+       <div className='bg-white space-y-5  w-full min-h-[20vh] flex flex-col justify-center items-center rounded-xl'>
         <h1 className='text-4xl font-bold'>3</h1>
         <p className='text-gray-500'>On Track</p>
        </div>
 
-       <div className='bg-white space-y-5 w-full min-h-[20vh] flex flex-col justify-center items-center'>
+       <div className='bg-white space-y-5 w-full min-h-[20vh] flex flex-col justify-center items-center rounded-xl'>
         <h1 className='text-4xl font-bold'>6</h1>
         <p className='text-gray-500'>Need Attention</p>
        </div>
 
-       <div className='bg-white p-10 px-25 space-y-5 w-full min-h-[20vh] flex flex-col justify-center items-center'>
+       <div className='bg-white p-10 px-25 space-y-5 w-full min-h-[20vh] flex flex-col justify-center items-center rounded-xl'>
         <h1 className='text-4xl font-bold'>12</h1>
         <p className='text-gray-500'>Interactions This Month</p>
        </div>

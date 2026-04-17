@@ -9,6 +9,7 @@ import Stats from './Pages/Stats/Stats'
 import NotFound from './Pages/NotFound/NotFound'
 import Homepage from './Pages/Homepage/Homepage'
 import FriendDetails from './Pages/friendDetails/FriendDetails'
+import TimelineProvider from './context/TimelineProvider'
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,9 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <TimelineProvider>
+      <RouterProvider router={router} />
+    </TimelineProvider>
+    
   </StrictMode>,
 )
