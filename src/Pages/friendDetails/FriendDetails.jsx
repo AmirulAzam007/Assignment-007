@@ -13,6 +13,8 @@ const FriendDetails = () => {
 
     const {calls, setCalls} = useContext(TimelineContext);
 
+
+
     const handlecalls = (type) => {
 
         const newEntry = {
