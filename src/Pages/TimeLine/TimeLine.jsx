@@ -39,7 +39,7 @@ const Timeline = () => {
       <div className='max-w-[1300px] mx-auto rounded-xl'>
         <details className='btn'>
           <summary>Filter Timeline</summary>
-          <ul className="bg-base-100 rounded-t-none p-4 space-x-2">
+          <ul className="bg-base-100 rounded-t-none p-4 space-x-2 border-1 border-black">
             <li className='border-1 btn border-black p-2' onClick={() => setFilter("all")}><a>All</a></li>
             <li className='border-1 btn border-black p-2' onClick={() => setFilter("call")}><a>Call</a></li>
             <li className='border-1 btn border-black p-2' onClick={() => setFilter("text")}><a>Text</a></li>
