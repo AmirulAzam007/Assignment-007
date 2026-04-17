@@ -7,6 +7,7 @@ import { FaBoxArchive } from 'react-icons/fa6';
 import { MdAddIcCall, MdDelete } from 'react-icons/md';
 import { BsChatLeftText } from 'react-icons/bs';
 import { TimelineContext } from '../../context/TimelineContext';
+import { toast } from 'react-toastify';
 
 const FriendDetails = () => {
 
@@ -21,6 +22,7 @@ const FriendDetails = () => {
         }
 
         setCalls([...calls, newEntry]);
+        toast.success(`${type} to ${expectedFriend.name}`);
 
     }
 
